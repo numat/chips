@@ -7,7 +7,7 @@ with open('README.md', 'r') as in_file:
 
 setup(
     name='numat-chips',
-    version='0.1.0',
+    version='0.1.1',
     description="Drivers for ADCs, sensors, and other electronic chips.",
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -16,7 +16,7 @@ setup(
     author_email='pat@numat-tech.com',
     packages=['chips'],
     entry_points={
-        'console_scripts': [('productivity = productivity:command_line')]
+        'console_scripts': [('chips = chips:command_line')]
     },
     install_requires=['smbus', 'spidev'],
     license='GPLv3',
