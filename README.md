@@ -3,13 +3,13 @@ Python drivers for circuit board components. Intended for use with Raspberry Pis
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIFf44ELHVCqy6wDeoCrO9F7SweDes8oq7_lbykvrM-KOkpv0P&usqp=CAU)
 
-# Why?
+## Why?
 
 Many of the components supported here come with drivers. However, their code quality is mixed and many important chipset features can be missing or misconfigured. It's your chip and you should be able to use all of it.
 
 These drivers were built ground up from the appropriate datasheets, making sure that all useful features are exposed or set to sensible defaults. The code is concise and linted, and this library works as a dependency.
 
-# Supported Chips
+## Supported Chips
 
  * ADS1115
  * ADS8344
@@ -20,13 +20,13 @@ These drivers were built ground up from the appropriate datasheets, making sure 
  * MCP3202
  * MCP3208
 
-# Installation
+## Installation
 
 ```
 pip install numat-chips
 ```
 
-# Usage
+## Usage
 
 For testing, you can call directly.
 

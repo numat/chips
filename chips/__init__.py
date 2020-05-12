@@ -4,8 +4,8 @@ Drivers for various chips used at NuMat with Raspberry Pis.
 Distributed under the GNU General Public License v3
 Copyright (C) 2020 NuMat Technologies
 """
-from chips.smbus import *
-from chips.spi import *
+from chips.smbus import *  # noqa: F401, F403
+from chips.spi import *  # noqa: F401, F403
 
 
 def command_line():
